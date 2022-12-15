@@ -1,6 +1,4 @@
 import SwiftUI
-import AppTrackingTransparency
-import AppsFlyerLib
 
 struct SplashView: View {
     @EnvironmentObject private var viewModel: ViewModel

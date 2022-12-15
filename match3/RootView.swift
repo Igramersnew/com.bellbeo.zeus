@@ -1,5 +1,4 @@
 import SwiftUI
-import AppsFlyerLib
 
 struct RootView: View {
     @EnvironmentObject var viewModel: ViewModel

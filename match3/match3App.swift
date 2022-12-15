@@ -2,7 +2,6 @@ import SwiftUI
 
 @main
 struct match3App: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     @StateObject var viewModel = ViewModel.shared
     @StateObject var settings = Settings()
@@ -12,9 +11,6 @@ struct match3App: App {
             RootView()
                 .environmentObject(viewModel)
                 .environmentObject(settings)
-                .onAppear {
-                    settings.fetchPurchases()
-                }
         }
     }
 }

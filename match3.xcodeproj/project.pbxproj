@@ -26,7 +26,6 @@
 		42DF6AC62949FBBB00EFB4EA /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DF6AC52949FBBB00EFB4EA /* Description.swift */; };
 		A60C5DD33DD47A4740C3BD53 /* Pods_match3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28743CDD292326E3E3BA9B5C /* Pods_match3.framework */; };
 		FD5D54E929084092006E3343 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5D54E829084092006E3343 /* RootView.swift */; };
-		FD5D54EB29084293006E3343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5D54EA29084293006E3343 /* AppDelegate.swift */; };
 		FD5D54ED29084435006E3343 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD5D54EC29084435006E3343 /* GoogleService-Info.plist */; };
 		FEB116FB290033D90034BB89 /* match3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB116FA290033D90034BB89 /* match3App.swift */; };
 		FEB116FF290033DE0034BB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB116FE290033DE0034BB89 /* Assets.xcassets */; };
@@ -40,7 +39,6 @@
 		FEBF61FC290043F500D397AC /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF61FB290043F500D397AC /* Animation.swift */; };
 		FEBF61FE2900448100D397AC /* With.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF61FD2900448100D397AC /* With.swift */; };
 		FEBF6200290044B800D397AC /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF61FF290044B800D397AC /* PreferenceKey.swift */; };
-		FEE1F45D29050DFC0021115F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1F45C29050DFC0021115F /* Constants.swift */; };
 		FEEE31AD29043DB1008DA8B0 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE31AC29043DB0008DA8B0 /* AppButton.swift */; };
 		FEEE31AF29043DCC008DA8B0 /* AppProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE31AE29043DCC008DA8B0 /* AppProgressBar.swift */; };
 		FEEE31B129043DEA008DA8B0 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE31B029043DEA008DA8B0 /* SplashView.swift */; };
@@ -104,7 +102,6 @@
 		D222A509077D87CF6D6A9936 /* Pods-match3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-match3.debug.xcconfig"; path = "Target Support Files/Pods-match3/Pods-match3.debug.xcconfig"; sourceTree = "<group>"; };
 		FD5D54E3290813A3006E3343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FD5D54E829084092006E3343 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		FD5D54EA29084293006E3343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD5D54EC29084435006E3343 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FEB116F7290033D90034BB89 /* match3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = match3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB116FA290033D90034BB89 /* match3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = match3App.swift; sourceTree = "<group>"; };
@@ -121,7 +118,6 @@
 		FEBF61FB290043F500D397AC /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		FEBF61FD2900448100D397AC /* With.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = With.swift; sourceTree = "<group>"; };
 		FEBF61FF290044B800D397AC /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
-		FEE1F45C29050DFC0021115F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FEEE31AC29043DB0008DA8B0 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		FEEE31AE29043DCC008DA8B0 /* AppProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProgressBar.swift; sourceTree = "<group>"; };
 		FEEE31B029043DEA008DA8B0 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -226,7 +222,6 @@
 			isa = PBXGroup;
 			children = (
 				FD5D54E3290813A3006E3343 /* Info.plist */,
-				FEE1F45B29050DD60021115F /* Constants */,
 				FEB95C302904A07900159517 /* Fonts */,
 				FEEE31B6290443D6008DA8B0 /* Modifiers */,
 				FEBF61F82900438A00D397AC /* Match3 */,
@@ -237,7 +232,6 @@
 				FEB11700290033DE0034BB89 /* Preview Content */,
 				274FA58421ECF8871F3236DA /* match3.entitlements */,
 				FD5D54E829084092006E3343 /* RootView.swift */,
-				FD5D54EA29084293006E3343 /* AppDelegate.swift */,
 				FD5D54EC29084435006E3343 /* GoogleService-Info.plist */,
 			);
 			path = match3;
@@ -307,14 +301,6 @@
 			path = Match3;
 			sourceTree = "<group>";
 		};
-		FEE1F45B29050DD60021115F /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				FEE1F45C29050DFC0021115F /* Constants.swift */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
 		FEEE31A929043CA1008DA8B0 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,15 +359,12 @@
 				FEB116F4290033D90034BB89 /* Frameworks */,
 				FEB116F5290033D90034BB89 /* Resources */,
 				19E2A8EDAC8EFECCAA0CF97F /* Embed Foundation Extensions */,
-				10C08B6A03357B24D0CF2F6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = match3;
-			packageProductDependencies = (
-			);
 			productName = match3;
 			productReference = FEB116F7290033D90034BB89 /* match3.app */;
 			productType = "com.apple.product-type.application";
@@ -494,23 +477,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		10C08B6A03357B24D0CF2F6B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-match3/Pods-match3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-match3/Pods-match3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-match3/Pods-match3-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6C3898CA0C6614359FBA6D22 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -550,7 +516,6 @@
 				42780A54294770F700C4A6B3 /* BalanceView.swift in Sources */,
 				42780A562947757C00C4A6B3 /* LevelMenu.swift in Sources */,
 				31715CE72947FA5000F8DD04 /* Levels.swift in Sources */,
-				FEE1F45D29050DFC0021115F /* Constants.swift in Sources */,
 				42DF6AC62949FBBB00EFB4EA /* Description.swift in Sources */,
 				42780A5A29477E2F00C4A6B3 /* PurchaseButtonView.swift in Sources */,
 				FEEE31AD29043DB1008DA8B0 /* AppButton.swift in Sources */,
@@ -566,7 +531,6 @@
 				42780A502947693400C4A6B3 /* CircularProgressView.swift in Sources */,
 				42780A5829477DC400C4A6B3 /* StorePanel.swift in Sources */,
 				FEB95C2F2904A01700159517 /* AppFont.swift in Sources */,
-				FD5D54EB29084293006E3343 /* AppDelegate.swift in Sources */,
 				FEB116FB290033D90034BB89 /* match3App.swift in Sources */,
 				40BE0ABA292CCC09002E6BF3 /* Settings.swift in Sources */,
 			);
@@ -734,7 +698,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = match3/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MatchLines;
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to device ID to improve tracking your score performance in app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -775,7 +738,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = match3/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MatchLines;
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Please allow access to device ID to improve tracking your score performance in app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
