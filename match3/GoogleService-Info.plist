@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>6242182119-i9pcs4g66ic92fvrdn3j9cttg0dtm04b.apps.googleusercontent.com</string>
+	<string>6242182119-sfgur6f1r05mm6gr1jfsfjafelunkpgu.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.6242182119-i9pcs4g66ic92fvrdn3j9cttg0dtm04b</string>
+	<string>com.googleusercontent.apps.6242182119-sfgur6f1r05mm6gr1jfsfjafelunkpgu</string>
 	<key>API_KEY</key>
 	<string>AIzaSyAdVKSa_mkhdSsEiKuv9cDtxf7A8m8fsxc</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.ergnustali.matchthree</string>
+	<string>com.bellbeo.zeus</string>
 	<key>PROJECT_ID</key>
 	<string>ios-igor-jet</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:6242182119:ios:a335264b8058d0f0c6d342</string>
+	<string>1:6242182119:ios:de8f11854ec4803ac6d342</string>
 </dict>
 </plist>
