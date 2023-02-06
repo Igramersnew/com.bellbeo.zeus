@@ -2,25 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleURLTypes</key>
-    <array>
-        <dict>
-            <key>CFBundleURLSchemes</key>
-            <array>
-                <string>fb3247135615537946</string>
-            </array>
-        </dict>
-    </array>
-    <key>FacebookAdvertiserIDCollectionEnabled</key>
-    <true/>
-    <key>FacebookAppID</key>
-    <string>3247135615537946</string>
-    <key>FacebookAutoLogAppEventsEnabled</key>
-    <true/>
-    <key>FacebookClientToken</key>
-    <string>78a24de1b014b93069d9483670eec088</string>
-    <key>FacebookDisplayName</key>
-    <string>com.bellbeo.zeus</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb3247135615537946</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAdvertiserIDCollectionEnabled</key>
+	<true/>
+	<key>FacebookAppID</key>
+	<string>3247135615537946</string>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<true/>
+	<key>FacebookClientToken</key>
+	<string>78a24de1b014b93069d9483670eec088</string>
+	<key>FacebookDisplayName</key>
+	<string>com.bellbeo.zeus</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>NSAppTransportSecurity</key>
